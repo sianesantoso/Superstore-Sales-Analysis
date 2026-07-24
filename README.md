@@ -36,7 +36,6 @@ Management needs to identify the main drivers of profit and discover opportuniti
 - 🌎 Which regions contribute the most to sales and profit?
 - 👥 Which customer segments provide the highest business value?
 - 💸 How do discounts affect sales and profitability?
-- 📦 How do different shipping modes compare in terms of sales and profit?
 - ❌ Which products consistently generate losses?
 - 💡 What strategies can improve overall business profitability?
 
@@ -87,7 +86,6 @@ The project analyzes multiple business dimensions, including:
 | 🌎 Regional Analysis | Sales, profit, and profit margin by region |
 | 👥 Customer Segments | Revenue, profit, and customer value |
 | 💸 Discount Analysis | Relationship between discounts and profitability |
-| 🚚 Shipping Mode | Sales, profit, and profit margin comparison |
 | ❌ Loss Analysis | Identification of loss-making products |
 | 📊 KPI Summary | Overall business performance indicators |
 
@@ -131,13 +129,6 @@ The project analyzes multiple business dimensions, including:
 
 ---
 
-### 🚚 Shipping Mode
-
-- **Standard Class** generates the highest sales and overall profit.
-- **First Class** achieves the highest profit margin, indicating greater profitability per dollar of sales.
-
----
-
 # 📈 Business Recommendations
 
 - ✅ Review and optimize discount policies, particularly for products receiving discounts above **20%**, to protect profit margins.
@@ -145,7 +136,6 @@ The project analyzes multiple business dimensions, including:
 - ✅ Increase investment in **Technology** products through targeted marketing and inventory planning.
 - ✅ Develop region-specific improvement strategies for the **Central** region by reviewing operational costs and pricing practices.
 - ✅ Expand customer acquisition and retention initiatives for the **Home Office** segment while maintaining the strong revenue contribution from **Consumer** customers.
-- ✅ Encourage higher-margin shipping options where appropriate while maintaining the operational efficiency of **Standard Class**.
 - ✅ Monitor **Sales**, **Profit**, and **Profit Margin** together instead of focusing solely on revenue growth.
 
 ---
@@ -155,20 +145,19 @@ The project analyzes multiple business dimensions, including:
 ```text
 superstore-sales-analysis/
 │
-├── dataset/
-│   └── superstore.csv
-│
+├── Data/
+│   └── superstore.xls
+│   └── superstore_cleaned.csv
 ├── notebooks/
 │   └── data_cleaning.ipynb
 │
-├── sql/
-│   ├── kpi_analysis.sql
-│   ├── sales_trend.sql
-│   ├── category_analysis.sql
-│   ├── regional_analysis.sql
-│   ├── discount_analysis.sql
-│   ├── customer_segment.sql
-│   └── shipping_mode.sql
+├── SQL/
+│   ├── 01_overview_business.sql
+│   ├── 02_sales_profit_trend.sql
+│   ├── 03_category_performance.sql
+│   ├── 04_region_performance.sql
+│   ├── 05_discount_analysis.sql
+│   ├── 06_customer_segment.sql
 │
 ├── dashboard/
 │   └── Superstore Dashboard.pbix
@@ -176,8 +165,9 @@ superstore-sales-analysis/
 ├── images/
 │   └── dashboard.png
 │
-├── README.md
-└── requirements.txt
+├── presentation/
+│   └── Sales & Profitability Performance Analysis.pdf
+└── README.md
 ```
 
 ---
@@ -191,7 +181,6 @@ The interactive Power BI dashboard includes:
 - 🌎 Regional Performance
 - 👥 Customer Segment Analysis
 - 💸 Discount Analysis
-- 🚚 Shipping Mode Comparison
 - 📌 Executive KPI Summary
 
 ```
