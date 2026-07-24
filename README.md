@@ -2,10 +2,10 @@
 
 # 📊 Superstore Sales & Profitability Analysis
 
-### Business Intelligence Project using **Python**, **Google BigQuery**, and **Power BI**
+### End-to-End Business Intelligence Project using **Python**, **Google BigQuery**, and **Power BI**
 
-![Python](https://img.shields.io/badge/Python-Data_Cleaning-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![BigQuery](https://img.shields.io/badge/Google_BigQuery-SQL-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Pandas-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-SQL-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![License](https://img.shields.io/badge/License-Educational-green?style=for-the-badge)
 
@@ -15,38 +15,38 @@
 
 # 📖 Project Overview
 
-This project analyzes **Superstore sales data** to uncover the key drivers of sales and profitability through an end-to-end data analytics workflow.
+This project presents an end-to-end **sales and profitability analysis** using the **Superstore dataset**. The objective is to uncover the key factors influencing business performance and provide **data-driven recommendations** to improve profitability.
 
-The project covers **data cleaning**, **SQL-based business analysis**, and **interactive dashboard development**, transforming raw transactional data into actionable business insights that support strategic decision-making.
-
-The analysis was conducted using:
-
-- 🐍 **Python** for data cleaning and preprocessing
-- 🗄 **Google BigQuery** for SQL analysis
-- 📊 **Power BI** for interactive dashboard visualization
+The project covers the complete analytics workflow, from **data cleaning in Python**, **SQL analysis in Google BigQuery**, to **interactive dashboard development in Power BI**.
 
 ---
 
 # 🎯 Business Problem
 
-Despite generating strong sales, the company experiences **inconsistent profitability** across different product categories, customer segments, shipping modes, and geographic regions.
+Despite consistent sales performance, the company experiences **uneven profitability** across product categories, regions, customer segments, shipping modes, and discount strategies.
 
-Management needs a comprehensive analysis to identify the factors driving profit and discover opportunities to increase profitability without sacrificing sales growth.
+Management needs to identify the main drivers of profit and discover opportunities to increase profitability without sacrificing sales growth.
 
 ---
 
 # ❓ Business Questions
 
-This project aims to answer the following questions:
+- 📈 How have sales and profit changed over time?
+- 🛍 Which product categories and sub-categories generate the highest and lowest profitability?
+- 🌎 Which regions contribute the most to sales and profit?
+- 👥 Which customer segments provide the highest business value?
+- 💸 How do discounts affect sales and profitability?
+- 📦 How do different shipping modes compare in terms of sales and profit?
+- ❌ Which products consistently generate losses?
+- 💡 What strategies can improve overall business profitability?
 
-1. 📈 How have sales and profit changed over time?
-2. 🛍 Which product categories and sub-categories generate the highest profit?
-3. 🌎 Which regions perform best in terms of sales and profitability?
-4. 👥 Which customer segments provide the greatest business value?
-5. 💸 How do discounts affect sales and profit?
-6. 🚚 How do shipping modes compare in terms of sales, profit, and profit margin?
-7. 📉 Which products consistently generate losses?
-8. 💡 What strategies can improve overall business profitability?
+---
+
+# 🛠 Tools & Technologies
+
+- 🐍 Python (Pandas)
+- ☁️ Google BigQuery (SQL)
+- 📊 Power BI
 
 ---
 
@@ -56,103 +56,97 @@ This project aims to answer the following questions:
 Raw Superstore Dataset
           │
           ▼
- Python Data Cleaning
-(Pandas & Data Validation)
+Data Cleaning & Validation
+      (Python / Pandas)
           │
           ▼
- Google BigQuery
-(SQL Business Analysis)
+Exploratory SQL Analysis
+ (Google BigQuery)
           │
           ▼
- Power BI Dashboard
-(Interactive Visualization)
+Business KPIs & Insights
           │
           ▼
-Business Insights
+Interactive Dashboard
+      (Power BI)
           │
           ▼
-Strategic Recommendations
+Business Recommendations
 ```
-
----
-
-# 🛠 Tools & Technologies
-
-### Data Processing
-
-- 🐍 Python
-- Pandas
-- NumPy
-
-### Database & SQL
-
-- Google BigQuery
-- SQL
-
-### Data Visualization
-
-- Power BI
 
 ---
 
 # 📊 Analysis Scope
 
-The project analyzes several business dimensions, including:
+The project analyzes multiple business dimensions, including:
 
-- 📈 Sales Performance Trend
-- 💰 Profit Performance Trend
-- 🛍 Category & Sub-Category Analysis
-- 🌎 Regional Performance
-- 👥 Customer Segment Analysis
-- 💸 Discount Impact Analysis
-- 🚚 Shipping Mode Performance
-- 📉 Loss-Making Products
-- 📦 Product Profitability
-- 🎯 Business KPIs
-
----
-
-# 📌 Key Insights
-
-The analysis revealed several important findings:
-
-- 📈 Sales showed consistent growth throughout the observed period.
-- 💰 Profit growth did not always follow sales growth, indicating varying profitability.
-- 💸 High discount rates were associated with lower profit margins and, in some cases, financial losses.
-- 🛍 Several high-selling products generated little or even negative profit.
-- 🌎 Regional performance varied significantly, with some regions contributing substantially higher profit margins.
-- 👥 Customer segments differed in their contribution to revenue and profitability.
-- 🚚 Shipping modes showed different levels of profitability despite similar sales volumes.
+| Analysis | Description |
+|----------|-------------|
+| 📈 Sales Trend | Annual sales and profit growth |
+| 🛍 Product Performance | Category and sub-category profitability |
+| 🌎 Regional Analysis | Sales, profit, and profit margin by region |
+| 👥 Customer Segments | Revenue, profit, and customer value |
+| 💸 Discount Analysis | Relationship between discounts and profitability |
+| 🚚 Shipping Mode | Sales, profit, and profit margin comparison |
+| ❌ Loss Analysis | Identification of loss-making products |
+| 📊 KPI Summary | Overall business performance indicators |
 
 ---
 
-# 💡 Business Recommendations
+# 💡 Key Insights
 
-Based on the analysis, the following recommendations are proposed:
+### 📈 Sales & Profit Trend
 
-- Optimize discount policies for low-margin products.
-- Prioritize high-profit product categories and sub-categories.
-- Review pricing strategies for products with recurring losses.
-- Focus marketing efforts on high-value customer segments.
-- Improve operational efficiency by optimizing shipping methods.
-- Continuously monitor profit margin rather than relying solely on sales growth.
+- Sales recovered after a temporary decline and continued growing through the following years.
+- Profit increased consistently despite fluctuations in annual sales, indicating improved operational efficiency.
 
 ---
 
-# 📈 Dashboard Features
+### 🛍 Product Performance
 
-The Power BI dashboard includes interactive visualizations such as:
+- **Technology** is the company's most profitable category.
+- **Furniture** records the lowest profit margin despite generating substantial sales.
+- **Tables** and **Bookcases** are the primary loss-making sub-categories.
 
-- 📊 Executive KPI Overview
-- 📈 Sales & Profit Trend
-- 🛍 Category Performance
-- 📦 Sub-Category Analysis
-- 🌎 Regional Performance
-- 👥 Customer Segment Analysis
-- 💸 Discount vs Profit Analysis
-- 🚚 Shipping Mode Comparison
-- 📉 Loss-Making Products
-- 🎯 Interactive Filters & Drill-down
+---
+
+### 🌎 Regional Performance
+
+- The **West** region contributes the highest sales and profit.
+- The **Central** region consistently underperforms in profitability despite comparable sales volume.
+
+---
+
+### 👥 Customer Segments
+
+- **Consumer** generates the largest share of revenue and total profit.
+- **Home Office** delivers the highest profit margin, making it the most efficient customer segment.
+
+---
+
+### 💸 Discount Strategy
+
+- Higher discount levels significantly reduce profit margins.
+- Large discounts do not consistently produce proportional increases in sales.
+
+---
+
+### 🚚 Shipping Mode
+
+- **Standard Class** generates the highest sales and overall profit.
+- **First Class** achieves the highest profit margin, indicating greater profitability per dollar of sales.
+
+---
+
+# 📈 Business Recommendations
+
+- ✅ Review and optimize discount policies, particularly for products receiving discounts above **20%**, to protect profit margins.
+- ✅ Reevaluate pricing, promotions, and product assortment for **Tables** and **Bookcases** to reduce recurring losses.
+- ✅ Increase investment in **Technology** products through targeted marketing and inventory planning.
+- ✅ Develop region-specific improvement strategies for the **Central** region by reviewing operational costs and pricing practices.
+- ✅ Expand customer acquisition and retention initiatives for the **Home Office** segment while maintaining the strong revenue contribution from **Consumer** customers.
+- ✅ Encourage higher-margin shipping options where appropriate while maintaining the operational efficiency of **Standard Class**.
+- ✅ Monitor **Sales**, **Profit**, and **Profit Margin** together instead of focusing solely on revenue growth.
 
 ---
 
@@ -161,16 +155,20 @@ The Power BI dashboard includes interactive visualizations such as:
 ```text
 superstore-sales-analysis/
 │
-├── data/
-│   ├── raw/
-│   └── cleaned/
+├── dataset/
+│   └── superstore.csv
 │
 ├── notebooks/
 │   └── data_cleaning.ipynb
 │
 ├── sql/
-│   ├── business_queries.sql
-│   └── analysis_queries.sql
+│   ├── kpi_analysis.sql
+│   ├── sales_trend.sql
+│   ├── category_analysis.sql
+│   ├── regional_analysis.sql
+│   ├── discount_analysis.sql
+│   ├── customer_segment.sql
+│   └── shipping_mode.sql
 │
 ├── dashboard/
 │   └── Superstore Dashboard.pbix
@@ -184,7 +182,17 @@ superstore-sales-analysis/
 
 ---
 
-# 📸 Dashboard Preview
+# 📊 Dashboard Preview
+
+The interactive Power BI dashboard includes:
+
+- 📈 Sales & Profit Trend
+- 🛍 Category & Sub-Category Performance
+- 🌎 Regional Performance
+- 👥 Customer Segment Analysis
+- 💸 Discount Analysis
+- 🚚 Shipping Mode Comparison
+- 📌 Executive KPI Summary
 
 ```
 images/dashboard.png
@@ -192,28 +200,29 @@ images/dashboard.png
 
 ---
 
-# 🎯 Learning Outcomes
+# 🎯 Skills Demonstrated
 
 This project demonstrates:
 
-- ✅ Data Cleaning with Python
+- ✅ Data Cleaning with Python (Pandas)
 - ✅ SQL Analysis using Google BigQuery
-- ✅ Business Intelligence & KPI Analysis
-- ✅ Data Visualization with Power BI
+- ✅ Data Modeling & Aggregation
+- ✅ Business KPI Development
 - ✅ Exploratory Data Analysis (EDA)
-- ✅ Business Problem Solving
-- ✅ Data-Driven Decision Making
-- ✅ Dashboard Design & Storytelling
+- ✅ Business Insight Generation
+- ✅ Data Visualization with Power BI
+- ✅ Business Recommendation & Decision Support
 
 ---
 
 # 🔮 Future Improvements
 
-- Build predictive sales forecasting models.
-- Develop customer segmentation using clustering techniques.
-- Create automated ETL pipelines.
-- Deploy dashboards using Power BI Service.
-- Integrate real-time sales data for live reporting.
+- Build an automated ETL pipeline
+- Integrate real-time sales data
+- Develop sales forecasting models
+- Apply customer segmentation using Machine Learning
+- Perform market basket analysis
+- Deploy the dashboard using Power BI Service or Looker Studio
 
 ---
 
